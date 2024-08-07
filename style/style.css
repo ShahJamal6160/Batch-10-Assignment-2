@@ -249,11 +249,35 @@
 }
 
 /* run section style */
+.run-container{
+    justify-content: space-evenly;
+}
+
+.run-title{
+    width: 450px;
+}
 
 .run-heading,
 .run-heading-1{
     color: white;
 }
+
+.run-heading{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+.run-img{
+    width: 350px;
+    height: 312px;
+    object-fit: none;
+    object-position: 68% 28%;
+    border-radius: 18px;
+}
+
+
+
 
 /* Responsive Mobile Device */
 @media screen and (max-width:576px) {
