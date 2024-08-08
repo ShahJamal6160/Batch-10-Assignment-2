@@ -44,6 +44,9 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.text-color{
+    color: white;
+}
 
 /* nav style */
 
@@ -198,7 +201,7 @@
 /* habit styles */
 
 .habit-bg{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 80px;
 }
 
@@ -240,7 +243,7 @@
 
 .movement h6{
     text-align: center;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .habit-img{
@@ -293,15 +296,63 @@
 }
 
 .run-btn{
-    width: 200px;
+    width: 300px;
     height: 60px;
     border: none;
     border-radius: 42px;
     color: white;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
+/* Team section style */
+.team-bg{
+   margin-top: 100px;
+   align-items: center;
+}
+.trainer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1140px;
+    height: 610px;
+    margin-left: 100px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.team-title{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.team-sub-title{
+    /* color: white; */
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 70px;
+}
+
+.trainer-img{
+    width: 340px;
+    height: 270px;
+    margin: 20px;
+    border-radius: 24px;
+}
+
+.img-set{
+    /* padding: 20px; */
+}
+.trainer-name{
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.trainer-title {
+    margin-top: -15px;
+    margin-left: 40px;
+}
 
 /* Responsive Mobile Device */
 @media screen and (max-width:576px) {
@@ -405,6 +456,20 @@
     .run-img{
         width: 299px;
         object-position: 67% 32%;
+    }
+
+    .trainer-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        height: 1709px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .trainer-img{
+        width: 300px;
+        height: 260px;
+        margin: 10px;
     }
 }
 
