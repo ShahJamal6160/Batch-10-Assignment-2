@@ -97,6 +97,7 @@
 
 .menu-bar{
     flex-direction: column;
+    display: none;
 }
 
 .menu-bar .bar{
@@ -305,12 +306,64 @@
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
+/* BMI calculator style */
+
+.bmi-container{
+    background-color:  rgb(49, 48, 48);
+}
+
+.bmi-title{
+    width: 670px;
+    text-align: left;
+    margin-left: 430px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 2px solid rgb(155, 151, 151);
+    padding: 15px 20px;
+    color:rgb(136, 133, 133);;
+}
+
+.bmi-container{
+    justify-content: space-evenly;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.bmi-1{
+    width: 282px;
+    height: 48px;
+    margin-top: 5px;
+}
+
+.bmi-2{
+    width: 569px;
+    height: 48px;
+    margin-top: 5px;
+}
+
+.bmi-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    padding: 16px 40px 16px 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
 
 /* Team section style */
 .team-bg{
    margin-top: 2px;
    align-items: center;
-   padding: 60px;
+   padding: 79px;
 }
 .trainer-container{
     display: grid;
@@ -543,30 +596,29 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-}
-
-
-/* Responsive large Device */
-
-@media screen and (min-width:992px) and (max-width:1440px) {
-    /* .banner{
-       max-width: 100%;
-       margin: 0 auto;
-       align-items: center;
-    }   
-
-    .banner-container{
-        position: relative;
-        margin-left: 100px;
-        
-    } */
-
-    /* .img-container{
-        position: relative;
-        margin-left: 200px;
-    } */
-    /* .banner-btn-1,
-    .banner-btn-2{
-        margin-bottom: 10px;
+    .bmi-bg{
+        width: 394px;
+        /* height: 772px; */
     }
-} */
+    
+    .bmi-title{
+        width: 353px;
+        margin-left: 20px;
+    }
+
+    .bmi-container{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .calculate-heading{
+        width: 254px;
+        /* text-align: left; */
+        margin-left: -50px;
+    }
+
+    .bmi-2{
+        width: 282px;
+    }
+
+}
