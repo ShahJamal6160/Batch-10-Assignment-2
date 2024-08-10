@@ -318,10 +318,14 @@
     margin-left: 430px;
     margin-top: 100px;
     margin-bottom: 70px;
+} 
+.chart{
+    font-size: 2rem;
 }
 
 table{
     border-collapse: collapse;
+    margin-bottom: 70px;
 }
 
 td, th{
@@ -330,10 +334,16 @@ td, th{
     color:rgb(136, 133, 133);;
 }
 
+.bmi-heading{
+    font-size: 2rem;
+}
+
+
 .bmi-container{
     justify-content: space-evenly;
     padding-top: 40px;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .bmi-1{
@@ -381,6 +391,7 @@ td, th{
     text-align: center;
     font-weight: 900;
     font-size: 3rem;
+    margin-top: -50px;
 }
 
 .team-sub-title{
@@ -612,9 +623,8 @@ td, th{
         margin-right: 20px;
     }
     .calculate-heading{
-        width: 254px;
-        /* text-align: left; */
-        margin-left: -50px;
+        width: 300px;
+        
     }
 
     .bmi-2{
