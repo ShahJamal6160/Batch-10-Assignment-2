@@ -87,7 +87,10 @@
     padding-top: 6px;
     font-size: 1.2rem;
     align-items: center;
+   
 }
+
+
 
 .nav-item{
     margin-right: 30px;
@@ -234,8 +237,10 @@
     width: 250px;
     align-items: center;
     color: white;
-   
+
 }
+
+
 
 .movement h2{
     text-align: center;
@@ -358,12 +363,14 @@ td, th{
 }
 
 .bmi-2{
-    width: 580px;
+    width: 574px;
     height: 48px;
     margin-top: 5px;
+    margin-left: 5px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
+    
 }
 
 .bmi-btn{
@@ -376,6 +383,9 @@ td, th{
     margin-bottom: 50px;
     margin-top: 20px;
 }
+
+
+
 
 /* Team section style */
 .team-bg{
