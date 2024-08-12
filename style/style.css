@@ -22,8 +22,7 @@
 
 
 .header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(12, 12, 12, 0) 300%);
-   
+    background-image: linear-gradient(to right top, #121011, #201c1f, #2d292e, #39363e, #44444f, #414550, #3e4550, #3b464f, #2d393e, #222b2d, #181e1e, #0c1110);
 }
 
 .main-bg{
