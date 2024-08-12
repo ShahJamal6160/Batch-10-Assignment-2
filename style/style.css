@@ -359,10 +359,22 @@ td, th{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
+    border: none;
 }
 
 .bmi-2{
-    width: 574px;
+    width: 285px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.bmi-3{
+    width: 581px;
     height: 48px;
     margin-top: 5px;
     margin-left: 5px;
@@ -667,7 +679,7 @@ td, th{
         
     }
 
-    .bmi-2{
+    .bmi-3{
         width: 287px;
     }
 
