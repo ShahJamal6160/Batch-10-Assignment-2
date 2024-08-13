@@ -123,9 +123,13 @@
 }
 
 .banner-title{
+   
     font-weight: 800;
     font-size: 3rem;
     color: white;
+    background-image: url(/images/SJ.JPG);
+    background-clip: text;
+    color: transparent;
 }
 
 
@@ -135,6 +139,11 @@
     border-radius: 24px;
     border: none;
     font-size: 1rem;
+    transition: transform 1s;
+}
+
+.banner-btn-1:hover{
+    transform: scale(1.1);
 }
 
 .banner-btn-2{
@@ -291,6 +300,7 @@
     color: white;
     font-weight: 900;
     font-size: 3rem;
+   
 }
 
 
