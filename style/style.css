@@ -86,10 +86,11 @@
     padding-top: 6px;
     font-size: 1.2rem;
     align-items: center;
-   
 }
 
-
+.nav-item-1:hover{
+    border: 1px solid blanchedalmond;
+}
 
 .nav-item{
     margin-right: 30px;
@@ -139,11 +140,10 @@
     border-radius: 24px;
     border: none;
     font-size: 1rem;
-    transition: transform 1s;
 }
 
 .banner-btn-1:hover{
-    transform: scale(1.1);
+    border: 1px solid black;
 }
 
 .banner-btn-2{
@@ -154,6 +154,11 @@
     font-size: 1rem;
     font-weight: 600;
 }
+
+.banner-btn-2:hover{
+    border: 1px solid black;
+}
+
 
 .experiance-btn-1{
     width: 220px;
@@ -245,11 +250,11 @@
     width: 250px;
     align-items: center;
     color: white;
-    transition: transform 1s;
+    
 }
 
-.movement:hover {
-    transform: scale(1.5);
+.habit-img:hover+h2{
+    color:teal;
 }
 
 
@@ -315,7 +320,7 @@
 }
 
 .run-img:hover{
-   border: 5px solid blanchedalmond;
+   border: 2px solid blanchedalmond;
 }
 
 .run-btn{
@@ -453,6 +458,10 @@ td, th{
     height: 270px;
     margin: 20px;
     border-radius: 24px;
+}
+
+.trainer-img:hover+.trainer-name{
+    color: seagreen;
 }
 
 .img-set{
@@ -635,7 +644,7 @@ td, th{
     }
 
     .run-img:hover{
-        border: 5px solid blanchedalmond;
+        border: 2px solid blanchedalmond;
      }
 
      
